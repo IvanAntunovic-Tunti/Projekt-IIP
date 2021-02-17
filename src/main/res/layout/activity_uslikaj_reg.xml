@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Uslikaj_reg"
+    >
+
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+
+        android:layout_width="wrap_content"
+        android:layout_height="666dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-2dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="401dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/white"
+        android:text="Registracija"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Spremi"
+        android:layout_width="194dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/Odustani"
+        android:layout_toRightOf="@+id/Odustani"
+        android:onClick="Spremi"
+        android:text="Spremi" />
+
+    <Button
+        android:id="@+id/Odustani"
+        android:layout_width="204dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="Odustani"
+        android:text="Odustani"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+
+</RelativeLayout>

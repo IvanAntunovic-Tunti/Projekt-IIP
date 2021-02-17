@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkit">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkIT">
+        <activity android:name=".PisanjeKazne"></activity>
+        <activity android:name=".KontrolaParkinga" />
+        <activity android:name=".Azuriraj_Parking" />
+        <activity android:name=".Uslikaj_reg" />
+        <activity android:name=".Napravi_kartu" />
+        <activity android:name=".IzbornikKontrolor" />
+        <activity android:name=".IzbornikKorisnik" />
+        <activity android:name=".Registracija" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+    </application>
+
+</manifest>
